@@ -1,0 +1,36 @@
+[tool.poetry]
+name = "titanic_analysis"
+version = "0.1.0"
+description = ""
+authors = ["User <email@sample.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+jupyterlab = "*"
+pandas = "*"
+numpy = "*"
+matplotlib = "*"
+seaborn = "*"
+scipy = "*"
+jupyterlab-code-formatter = "*"
+jupyterlab-execute-time = "*"
+black = "*"
+isort = "*"
+japanize-matplotlib = "*"
+pyarrow = "*"
+scikit-learn = "*"
+sweetviz = "*"
+plotly = "*"
+lightgbm = "*"
+stl = "*"
+numpy-stl = "*"
+catboost = "*"
+optuna = "*"
+xgboost = "*"
+openpyxl = "*"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
